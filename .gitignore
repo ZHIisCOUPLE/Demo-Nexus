@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Windows-specific files that require CRLF:
+*.bat       eol=crlf
+*.txt		eol=crlf
+
+# Unix-specific files that require LF:
+*.java		eol=lf
+*.sh		eol=lf
